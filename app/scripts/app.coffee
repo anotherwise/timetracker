@@ -5,7 +5,8 @@ angular.module('timetrackerApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
-  'firebase'
+  'firebase',
+  'ui.bootstrap'
 ])
   .config ($routeProvider, $locationProvider) ->
     $routeProvider
